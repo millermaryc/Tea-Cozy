@@ -1,1 +1,12 @@
-
+.body {
+  font-family: Helvitca;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  }
+.header {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+}
