@@ -17,6 +17,7 @@
   .logo {
     flex: 1;
     padding-left: 10px;
+    padding-top: 10px
   }
 
   .logo img {
@@ -48,30 +49,32 @@
     }
   }
 
-.imgcontainer1 {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-}
-  .firstimage img {
-    display: inline-flex;
-    height: 700px;
-    width: 1200px;
+  .imgcontainer1 {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  .c1items {
-    display: inline-flex;
     background-color: black;
-}
-  .description1 {
-    display: inline-flex;
-    flex-direction: column;
-    width: 1200px;
-    text-align: center;
-    justify-content: center;
-    font-family: Helvetica;
-    font-size: 22px;
-    color: seashell;
   }
+    .firstimage img {
+      height: 700px;
+      width: 1200px;
+      flex-direction: column;
+    }
+    .c1items {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      width: 1200px;
+      height: 120px;
+      background-color: black;
+      padding-bottom: 15px;
+    }
+    .description1 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Helvetica;
+      font-size: 22px;
+      color: seashell;
+    }
